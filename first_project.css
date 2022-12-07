@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url('1265780.jpg');
+    color: white;
+}
+.left{
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    margin: 20px 0px;
+}
+.left img{
+    filter: invert(100%);
+    width: 100px;
+}
+.left .avi{
+    line-height: 2px;
+    text-align: center;
+    color: rgb(227, 233, 227);
+}
+.center{
+    display: block;
+    width: 800px;
+    margin: 40px auto;
+    /* border: 2px solid red; */
+}
+.right{
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    /* margin: 20px 0px; */
+}
+.btn{
+    margin: 40px auto;
+    border-radius: 5px;
+    /* color: white;
+    background-color: black;
+    padding: 10px; */
+    cursor: pointer;
+} 
+.btn:hover{
+    background-color: rgb(116, 137, 155);
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(220, 227, 220);
+    padding: 10px 20px;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.container h2{
+    text-align: center;
+}
+.container{
+    padding: 20px;
+    margin: 80px 40px;
+    border: 2px solid white;
+    width: 30%;
+    border-radius: 8px;
+}
+.container .btn{
+    margin: 0px;
+    display: block;
+    margin: 5px auto;
+    width: 350px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.container .btn:hover{
+    background-color: rgb(123, 107, 107);
+}
+form{
+    margin: 50px auto;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 6px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
